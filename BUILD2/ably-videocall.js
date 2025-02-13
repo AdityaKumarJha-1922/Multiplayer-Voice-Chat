@@ -156,4 +156,3 @@ function handleEndCall(client_id = null) {
 
 
 
-0
