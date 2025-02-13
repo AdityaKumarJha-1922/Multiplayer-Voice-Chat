@@ -3,7 +3,7 @@ var connections = {}
 var currentCall
 var localStream
 var constraints = { video: false, audio: true }
-var apiKey = '' // Note : Plz use your own API key in ably website
+var apiKey = 'qSYA_w.krlLyA:LwX6c2BpQZVkBVUyvNpf4lOuz0W-J8xrmI7yAzi2UWI' // Note : Plz use your own API key in ably website
 var clientId = 'client-' + Math.random().toString(36).substr(2, 16)
 var realtime = new Ably.Realtime({ key: apiKey, clientId: clientId })
 var AblyRealtime = realtime.channels.get('ChatChannel')
